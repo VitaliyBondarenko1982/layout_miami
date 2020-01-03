@@ -39,6 +39,7 @@ h4 {
           animation: menu 500ms ease-in-out; }
 
 .nav__link {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 22px;
@@ -154,7 +155,7 @@ h4 {
       width: 35px;
       height: 2px;
       top: -16px;
-      left: 0;
+      left: 20px;
       background-color: #fff; }
   .header__toggle {
     position: relative;
