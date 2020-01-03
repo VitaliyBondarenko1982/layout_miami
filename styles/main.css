@@ -249,6 +249,8 @@ h4 {
       padding-left: 0;
       font-size: 53px;
       width: 300px; }
+      .header__title::before {
+        left: 0; }
     .header--closed .header__nav {
       display: block; } }
 
