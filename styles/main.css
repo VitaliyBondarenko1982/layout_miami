@@ -155,6 +155,12 @@ button {
     width: auto;
     height: 32px; } }
 
+@media (min-width: 960px) {
+  .nav--closed .nav__list,
+  .nav--opened .nav__list {
+    width: 1017px;
+    margin: auto; } }
+
 @-webkit-keyframes top {
   from {
     -webkit-transform: translateY(-250px);
@@ -282,7 +288,7 @@ button {
 
 @media (min-width: 960px) {
   .header {
-    padding: 24px 120px; }
+    padding: 24px calc((100vw - 1020px) / 2); }
     .header__title {
       font-size: 60px;
       width: 340px; } }
@@ -319,7 +325,7 @@ button {
 
 @media (min-width: 1080px) {
   .section {
-    padding: 64px 120px 0; } }
+    padding: 64px calc((100vw - 1020px) / 2) 0; } }
 
 .info__title {
   margin-bottom: 48px;
