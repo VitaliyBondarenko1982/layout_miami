@@ -602,6 +602,12 @@ button {
 
 @media (min-width: 960px) {
   .contact__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 350px; }
   .contact__wrapper {
     width: 152px; }
