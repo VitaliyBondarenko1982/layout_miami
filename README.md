@@ -1,1 +1,1 @@
-[DEMO LINK](https://<your_account>.github.io/layout_miami/)
+[DEMO LINK](https://VitaliyBondarenko1982.github.io/layout_miami/)
