@@ -2,6 +2,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 html,
 body,
 ul,
@@ -389,7 +392,8 @@ button {
   -webkit-transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
   transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
+          transform: translateX(-50%);
+  cursor: pointer; }
   .button:hover {
     color: #0075ff;
     background-color: #fff; }
